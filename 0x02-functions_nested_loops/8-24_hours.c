@@ -9,21 +9,12 @@ void jack_bauer(void)
 	w = 0;
 	while (w <= 2)
 	{
-		{
-			w++;
-		}
 		x = 0;
 		while (x <= 9)
 		{
-			{
-				x++;
-			}
 			y = 0;
 			while (y <= 5)
 			{
-				{
-					y++;
-				}
 				z = 0;
 				while (z <= 9)
 				{
@@ -35,7 +26,11 @@ void jack_bauer(void)
 					z++;
 					_putchar('\n');
 				}
+				y++;
 			}
+			x++;
 		}
+		w++;
 	}
+
 }
