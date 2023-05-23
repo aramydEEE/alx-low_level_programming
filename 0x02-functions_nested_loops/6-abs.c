@@ -13,6 +13,9 @@ int _abs(int c)
 	{
 		r = -1 * c;
 	}
-	r = c;
+	else
+	{
+		r = c;
+	}
 	return (r);
 }
