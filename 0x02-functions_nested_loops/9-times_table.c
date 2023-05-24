@@ -18,9 +18,15 @@ void times_table(void)
 			t = r % 10;
 			_putchar(s + '0');
 			_putchar(t + '0');
-			_putchar(',');
-			_putchar(' ');
-		}
+			if (y == 9)
+			{
+				continue;
+			}
+			else
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		_putchar('\n');
 	}
 }
