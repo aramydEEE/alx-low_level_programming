@@ -16,7 +16,7 @@ int main(void)
 		for (; y <= 9; y++)
 		{
 			putchar(x + 48);
-			putchar(x + 48);
+			putchar(y + 48);
 			if (x < 8)
 			{
 				putchar(',');
