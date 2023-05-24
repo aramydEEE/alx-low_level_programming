@@ -20,15 +20,15 @@ void times_table(void)
 			_putchar(t + '0');
 			if (y == 9)
 			{
-				continue;
+				_putchar('\n');
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
-		_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
 
