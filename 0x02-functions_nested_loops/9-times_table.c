@@ -25,22 +25,20 @@ void times_table(void)
 			{
 				_putchar(r + 48);
 			}
-			if (y == 9)
-			{
-				_putchar('\n');
-			}
-			else
+			if (r <= 9 && y < 9)
 			{
 				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 			}
-			if (r > 9)
+			else if (r > 9 && y < 9)
 			{
+				_putchar(',');
 				_putchar(' ');
 			}
 			else
 			{
-				_putchar(' ');
-				_putchar(' ');
+				_putchar('\n');
 			}
 		}
 	}
