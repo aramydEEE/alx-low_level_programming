@@ -41,10 +41,7 @@ void times_table(void)
 			{
 				_putchar(r + 48);
 			}
-			if (y == 9)
-			{
-			_putchar('\n');
-			}
 		}
+		_putchar('\');
 	}
 }
