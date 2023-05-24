@@ -14,7 +14,7 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 			r = x * y;
-			if ( r > 9)
+			if (r > 9)
 			{
 				s = r / 10;
 				t = r % 10;
@@ -32,6 +32,7 @@ void times_table(void)
 			else
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 			}
 		}
