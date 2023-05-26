@@ -21,7 +21,7 @@ void print_square(int size)
 			m = 1;
 			while (m <= size)
 			{
-				_putchat('#');
+				_putchar('#');
 				m++;
 			}
 			_putchar('\n');
