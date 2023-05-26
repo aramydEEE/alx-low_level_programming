@@ -14,7 +14,7 @@ void print_diagonal(int n)
 	{
 		if (n <= 0)
 		{
-			_putchar('\n');
+			break;
 		}
 		else
 		{
@@ -22,6 +22,7 @@ void print_diagonal(int n)
 			_putchar(92);
 		}
 		x++;
+		_p('\n');
 	}
 	_putchar('\n');
 }
