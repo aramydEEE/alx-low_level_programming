@@ -1,5 +1,5 @@
+#include "main.h"
 #include <stdio.h>
-
 /**
  * fizz_buzz -  program that prints the numbers from 1 to 100
  */
@@ -12,22 +12,35 @@ void fizz_buzz(void)
 	{
 		if (x % 3 == 0 && x % 5 != 0)
 		{
-			printf("Fizz");
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
 		}
 		else if (x % 5 == 0 && x % 3 != 0)
 		{
-			printf("Buzz");
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
 		}
 		else if (x % 3 == 0 && x % 5 == 0)
 		{
-			printf("FizzBuzz");
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
 		}
 		else
 		{
 			printf("%d", x);
 		}
-		printf(" ");
+		_putchar(' ');
 		x++;
 	}
-	printf("\n");
+	_putchar('\n');
 }
