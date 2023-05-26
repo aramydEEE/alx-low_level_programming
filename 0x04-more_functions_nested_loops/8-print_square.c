@@ -17,7 +17,7 @@ void print_square(int size)
 		}
 		else
 		{
-			_putchar('35');
+			_putchar(0 + 35);
 		}
 		n++
 	}
