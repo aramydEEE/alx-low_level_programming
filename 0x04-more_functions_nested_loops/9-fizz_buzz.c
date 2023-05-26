@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * fizz_buzz -  program that prints the numbers from 1 to 100
  */
