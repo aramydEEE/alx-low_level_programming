@@ -17,9 +17,9 @@ void print_square(int size)
 		}
 		else
 		{
-			_putchar(0 + 35);
+			_putchar('#');
 		}
-		n++
+		n++;
 	}
 	_putchar('\n');
 }
