@@ -7,20 +7,24 @@
 
 void print_square(int size)
 {
-	int n = 1;
+	int n, m;
 
+	n = 1;
 	while (n <= size)
 	{
 		if (size <= 0)
 		{
 			_putchar('\n');
+			break;
 		}
-		else
+
+		m = 1;
+		while (m <= size)
 		{
 			_putchar('#');
-			_putchar('#');
+			m++;
 		}
+		_putchar('\n');
 		n++;
 	}
-	_putchar('\n');
 }
