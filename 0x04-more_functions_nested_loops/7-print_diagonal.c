@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - function that draws a diagonal line on the terminal.
+ * print_diagonal - draws a diagonal line on the terminal.
  * @n: integer type argument
  */
 
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 		else
 		{
 			_putchar(' ');
-			_putchar('\\');
+			_putchar('\');
 		}
 		x++
 	}
