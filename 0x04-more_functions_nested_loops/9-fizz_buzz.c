@@ -6,41 +6,25 @@
 
 void fizz_buzz(void)
 {
-	int x;
-
-	for (x = 1; x <= 100; x++)
+	for (x = 0; x <= 100, x++)
 	{
 		if (x % 3 == 0 && x % 5 != 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
+			printf("Fizz");
 		}
 		else if (x % 5 == 0 && x % 3 != 0)
 		{
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("Buzz");
 		}
 		else if (x % 3 == 0 && x % 5 == 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("FizzBuzz");
 		}
 		else
 		{
 			printf("%d", x);
 		}
-		_putchar(' ');
-		x++;
+		printf(" ");
 	}
-	_putchar('\n');
+	printf("\n");
 }
