@@ -18,6 +18,6 @@ void print_rev(char *s)
 
 	for (; r >= 0; r--)
 	{
-		s[i - 1] = _putchar(s[r]) + '\0';
+		s[] = _putchar(s[r]) + '\0';
 	}
 }
