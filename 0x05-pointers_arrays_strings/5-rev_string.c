@@ -6,7 +6,7 @@
  * @s: parameter of the function
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int i, r;
 
@@ -18,6 +18,6 @@ void rev_string(char *s)
 
 	for (; r >= 0; r--)
 	{
-		s[r] = s[r] + '\0';
+		s[i - 1] = &s[r] + '\0';
 	}
 }
