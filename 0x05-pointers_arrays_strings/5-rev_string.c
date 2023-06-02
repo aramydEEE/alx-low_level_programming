@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * print_rev - function that prints a string, in reverse
+ * rev_string - function that prints a string, in reverse
  * @s: parameter of the function
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
-	int i, r;
+	int i, r, x;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -18,7 +18,6 @@ void print_rev(char *s)
 
 	for (; r >= 0; r--)
 	{
-		_putchar(s[r]);
+		x = _putchar(s[r]);
 	}
-	_putchar('\n');
 }
