@@ -21,5 +21,6 @@ void rev_string(char *s)
 		int x;
 
 		x = _putchar(s[r]);
+		s = "x";
 	}
 }
