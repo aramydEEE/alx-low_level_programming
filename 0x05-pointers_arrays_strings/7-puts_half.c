@@ -7,19 +7,19 @@
 
 void puts_half(char *str)
 {
-	int i, r, n;
+	int i, n;
 
 	for (i = 0; str[i]; i++)
 	{
-		r = i;
+		;
 	}
-	if (r % 2 > 0)
+	if (i % 2 > 0)
 	{
-		n = (r - 1) / 2;
+		n = (i - 1) / 2;
 	}
 	else
 	{
-		n = r / 2;
+		n = i / 2;
 	}
 	while (str[n])
 	{
