@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
- * @c: function's parameter
- * Return: A value
+ * _memset - checks for upper case letter
+ * @s: function's parameter
+ * @b: second parameter
+ * @n: third parameter
+ * Return: A character
  */
 
-int _isupper(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (0);
+	return (s);
 }
