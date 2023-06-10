@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
- * @c: function's parameter
+ * _strchr - prints
+ * @s: 1st parameter
+ * @c: 2nd parameter
  * Return: A value
  */
 
-int _isupper(int c)
+char *_strchr(char *s, char c)
 {
 	return (0);
 }

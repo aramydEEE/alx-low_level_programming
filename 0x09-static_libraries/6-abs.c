@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
- * @c: function's parameter
+ * _abs - checks for upper case letter
+ * @n: function's parameter
  * Return: A value
  */
 
-int _isupper(int c)
+int _abs(int n)
 {
 	return (0);
 }

@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
- * @c: function's parameter
+ * _strncat - checks for upper case letter
+ * @dest: function's parameter
+ * @src: 2nd
+ * @n: 3rd
  * Return: A value
  */
 
-int _isupper(int c)
+char *_strncat(char *dest, char *src, int n)
 {
 	return (0);
 }

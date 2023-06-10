@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
- * @c: function's parameter
+ * _strstr - prints
+ * @haystack: function's parameter
+ * @needle: 2nd parameter
  * Return: A value
  */
 
-int _isupper(int c)
+char *_strstr(char *haystack, char *needle)
 {
 	return (0);
 }

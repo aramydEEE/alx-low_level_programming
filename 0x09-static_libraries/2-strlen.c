@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
- * @c: function's parameter
+ * _strlen - string length
+ * @s: function's parameter
  * Return: A value
  */
 
-int _isupper(int c)
+int _strlen(char *s)
 {
 	return (0);
 }

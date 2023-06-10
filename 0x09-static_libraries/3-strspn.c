@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
- * @c: function's parameter
+ * _strspn - prints
+ * @s: function's parameter
+ * @accept: 2nd parameter
  * Return: A value
  */
-
-int _isupper(int c)
+unsigned int _strspn(char *s, char *accept)
 {
 	return (0);
 }

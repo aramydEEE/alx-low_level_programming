@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - checks for upper case letter
+ * _memset - prints
  * @s: function's parameter
  * @b: second parameter
  * @n: third parameter

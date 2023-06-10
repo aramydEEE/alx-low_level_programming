@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * _isupper - checks for upper case letter
+ * _islower - checks for lower case letter
  * @c: function's parameter
  * Return: A value
  */
-
-int _isupper(int c)
+int _islower(int c)
 {
 	return (0);
 }
